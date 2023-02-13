@@ -1,0 +1,1944 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,700;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Be+Vietnam+Pro:wght@300&display=swap");
+
+body {
+    
+    background-image: url('Img/website\ background\ image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+    background-attachment: fixed;
+
+}
+
+/* this is navigation bar */
+.menu {
+    margin-left: 411px;
+    margin-top: 0px;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 316px;
+    color: white;
+}
+
+.navbar {
+    width: 400px;
+    text-align: center;
+    background: #161616;
+    height: 900px;
+    position: absolute;
+    left: -400px;
+    transition: 0.5s;
+    margin-top: -29px;
+}
+
+.active {
+    left: 0;
+}
+
+.navbar ul {
+    margin-top: 49px;
+    width: 318px;
+}
+
+.navbar ul a {
+    margin: 8px 56px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 16px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 51px;
+    margin: 20px auto;
+    border-radius: 8px;
+    font-family: 'Roboto Mono';
+        font-weight: bold;
+}
+
+.size {
+    font-size: 42px;
+    font-family: 'Roboto Mono';
+        font-weight: bold;
+        color: white;
+}
+
+.fake {
+    margin-left: 59px;
+    border: 2px solid red;
+    width: 267px;
+}
+
+.navbar ul li:hover {
+    background: #ffcc0d;
+    color: rgb(30, 204, 204);
+}
+
+
+
+/* Photo and introduction */
+.main {
+    width: 1159px;
+    margin: 30px auto;
+    display: flex;
+    text-align: center;
+}
+
+.main nav {
+    z-index: -1;
+    padding: 5px;
+    width: 405px;
+    text-align: center;
+    margin-top: 77px;
+    box-shadow: 6px 6px red;
+}
+
+.photo {}
+
+.photo img {
+    width: 403px;
+    height: 500px;
+}
+
+.intro {
+    width: 707px;
+    text-align: center;
+    height: 235px;
+    margin: auto;
+}
+
+.intro h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: white;
+    font-size: 36px;
+}
+.name-logo{
+
+}
+.name-logo img{
+
+}
+
+
+.underintro {
+    width: 341px;
+    height: 29px;
+    margin: auto;
+    font-size: 23px;
+    background-color: #161616;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    border: 2px solid red;
+    border-radius: 14px;
+}
+
+.intro p {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 16px;
+    width: 490px;
+    margin: 20px auto;
+    color: white;
+}
+
+.intro button {
+    font-size: 26px;
+    background-color: #161616;
+    border: 2px solid red;
+    border-radius: 16px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-weight: bold;
+}
+.runname{
+    color: #7979ed;
+}
+
+/* Biography information */
+.biography {
+    margin: 100px auto;
+    width: 1160px;
+    text-align: center;
+    height: 550px;
+}
+
+.biography h1 {
+    font-size: 37px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: white;
+}
+
+.fake1 {
+    border: 2px solid red;
+    width: 266px;
+    margin: -29px auto;
+}
+
+.biography ul {
+    width: 698px;
+    margin: 52px auto;
+    text-align: left;
+}
+.biography ul li p{
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: white;
+}
+
+.box {
+    width: 800px;
+    height: 100px;
+    margin: 0px auto;
+}
+
+.box button {
+    padding: 10px;
+    margin: 5px 7px;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #161616;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 1px red;
+}
+.box button:hover {
+    background: #f8f89a;
+    color: black;
+}
+
+#cv {
+    margin: 97px auto;
+    padding: 10px;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    background-color: #161616;
+    color: white;
+    box-shadow: 2px 2px red;
+}
+
+/* Skills related information */
+.skill {
+    width: 1160px;
+    height: 357px;
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+}
+
+.fake2 {
+    border: 2px solid red;
+    width: 165px;
+    margin: -17px auto;
+    margin-bottom: 57px;
+    
+}
+
+.skill h1 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.skill nav {
+    margin: 87px auto;
+}
+
+.underskill {
+    border: 3px solid black;
+    height: 42px;
+    width: 621px;
+    margin: 10px auto;
+}
+
+.unskill1 {
+    border: 2px solid #ffcc0d;
+    width: 568px;
+    height: 24px;
+    margin-left: 7px;
+    margin-top: 7px;
+    background: #ffcc0d;
+}
+
+
+.unskill2 {
+    border: 2px solid #ffcc0d;
+    width: 508px;
+    height: 24px;
+    margin-left: 7px;
+    margin-top: 7px;
+    background: #ffcc0d;
+}
+
+.unskill3 {
+    border: 2px solid #ffcc0d;
+    width: 402px;
+    height: 24px;
+    margin-left: 7px;
+    margin-top: 7px;
+    background: #ffcc0d;
+}
+.line span{
+    color: #fbd8d8;
+}
+.leftskill1 {
+    margin-left: -256px;
+    margin-top: 4px;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.rightskill1 {
+    margin-left: 500px;
+    margin-top: -17px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.leftskill2 {
+    margin-left: -236px;
+    margin-top: 4px;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.rightskill2 {
+    margin-top: -17px;
+    margin-left: 453px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.leftskill3 {
+    margin-left: -154px;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 4px;
+    width: 100%;
+}
+
+.rightskill3 {
+    margin-top: -17px;
+    margin-left: 348px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Education releted information */
+.education {
+    width: 1160px;
+    height: 522px;
+    margin: 221px auto;
+    text-align: center;
+}
+
+.education h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: white;
+}
+
+.fake3 {
+    border: 2px solid red;
+    width: 506px;
+    margin: -21px auto;
+}
+
+.had {
+    width: 807px;
+    height: 36px;
+    margin: 48px auto;
+    display: flex;
+}
+
+
+element.style {
+}
+.had div {
+    width: 373px;
+    margin: 0px auto;
+    background-color: #161616;
+    border-radius: 10px;
+    box-shadow: 2px 2px #c78989;
+}
+
+
+element.style {
+}
+.had div h2 {
+    margin-top: 0px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: white;
+}
+.tab {
+    width: 807px;
+    height: 332px;
+    margin: 44px auto;
+    margin-top: -13px;
+}
+
+.tab nav {
+    display: flex;
+    margin-top: -43px;
+}
+
+.tab div {
+    width: 373px;
+    margin: 33px auto;
+    background-color: rgb(225 215 215);
+    border-radius: 14px;
+    box-shadow: 5px 5px 2px 0px #af9d9d;
+}
+.edu-exp{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+.edu-exp1{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+/* Services releted information */
+.service {
+    width: 1160px;
+    text-align: center;
+    margin: 0px auto;
+    display: none;
+}
+
+.service nav {
+    width: 811px;
+    display: flex;
+    margin: 68px auto;
+}
+
+.fake4 {
+    border: 2px solid black;
+    width: 234px;
+    margin: -15px auto;
+}
+
+.unser {
+    border: 2px solid black;
+    width: 340px;
+    margin: 20px 31px;
+}
+
+.unser:hover {
+    background-color: black;
+    color: white;
+}
+
+.underser {
+    border: 2px solid #ffcc0d;
+    width: 230px;
+    height: 29px;
+    margin: 0px auto;
+    font-size: 21px;
+    background-color: #ffcc0d;
+}
+
+#un1 {
+    margin-top: -70px;
+}
+
+.unser svg {
+    margin: 10px;
+}
+
+
+
+/* Portfolio information */
+
+.project-section{
+    background-color: rgb(231,231,231);
+    margin-top:-5px;
+    /* 4rem; */
+
+}
+.page-header{
+    color:var(--bgOrange);
+    font-size:90px;
+    text-align:center;
+    padding-top:30px;
+}
+.project-container{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+
+    margin:0 auto;
+    padding:3rem 0;
+}
+.project-card{
+    width: 80%;
+    height: 450px;
+    position: relative;
+    box-shadow:0px 0px 40px #1f1f1f;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.project-card::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: #1f1f1f9a;
+    transform: scale(1);
+    z-index: 0;
+}
+.project-card::before{
+    content: "";
+    z-index: 1;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: linear-gradient(45deg, #343d68, #343d68be, #343d687c);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.4s;
+}
+.project-card:hover::before{
+    transform: scaleX(1);
+}
+.project-number{
+   position: absolute;
+   font-size:200px;
+   font-weight:600;
+   color:white;
+   z-index: 3;
+   display: none;
+   /* opacity: 0; */
+}
+.project-card:hover .project-number{
+    display: block;
+    /* opacity: 1; */
+}
+.p-n-left{
+    left:-40px;
+    top:-45px;
+}
+.p-n-right{
+
+    right:-40px;
+    top:-45px;
+}
+.project-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    padding:2em;
+    bottom:20%;
+    z-index:5;
+    gap:1em;
+    transition:all 0.4s;
+}
+.project-content-left{ 
+    left:10%;
+  }
+
+.project-content-right{ 
+    right:10%;
+}
+
+.project-skills-container{
+    width: 60%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+}
+.project-skill{
+    width: 40px;
+}
+.project-heading{
+    font-size:50px;
+    font-weight: bold;
+    line-height:3rem;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.project-subheading{
+    width:70%;
+    font-size:16px;
+    font-style: italic;
+    
+}
+.btn-hire {
+    height: 45px;
+    width: 151px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+#link1{
+color: #000;
+}
+#link2{
+    color: #000;
+}
+#link3{
+    color: #000;
+    }
+    #link4{
+        color: #000;
+    }
+.btn-grp{
+    display: flex;
+    gap:0.9rem;
+    align-items: center;
+}
+.btn-project:hover{
+    border: none;
+}
+.icon{
+    cursor: pointer;
+    color: white;
+    font-size:35px;
+    transition: all 0.4s;
+}
+.icon:hover{
+    color: var(--bgOrange);
+}
+.project-card:hover .project-content{
+    transform: scale(1.1);
+}
+
+#pj-1{
+    background-image: url('Img/showroom\ web.png');
+}
+#pj-2{
+    margin-left:230px;
+    background-image: url('Img/foodproject.png');
+}
+#pj-3{
+    background-image: url('Img/colorgame.png');
+}
+#pj-4{
+    margin-left:230px;
+    background-image: url('Img/drumkit\ project.png');
+}
+#pj-5{
+    background-image: url('Img/spotify\ clone\ image.png');
+}
+
+
+/* Contact list */
+.contact {
+    width: 1160px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+}
+.contact h1{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+.fake5 {
+    border: 2px solid red;
+    width: 250px;
+    margin: -20px auto;
+}
+
+.contact nav {
+    width: 811px;
+    height: 300px;
+    margin: 66px auto;
+}
+
+.contact nav form div {
+    height: 39px;
+}
+
+.contact nav form div input {
+    width: 263px;
+    padding: 8px;
+    font-size: 14px;
+    margin: 0px 5px;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: white;
+    background: #161616;
+}
+
+.num {
+    border: 2px solid red;
+    width: 571px;
+    height: 30px;
+    padding: 2px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    background-color: #161616;
+}
+
+.mess {
+    border: 2px solid red;
+    width: 571px;
+    height: 200px;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    margin: 5px;
+    font-size: 19px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #161616;
+}
+
+.contact nav button {
+    height: 36px;
+    width: 137px;
+    font-size: 16px;
+    margin: 20px auto;
+    border-radius: 16px;
+    background-color: #161616;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 2px red;
+}
+
+/* Last information */
+.last {
+    width: 1160px;
+    height: 200px;
+    margin: 118px auto;
+
+}
+
+.last nav {
+    display: flex;
+    text-align: center;
+    margin: 0px 184px;
+}
+
+.last div {
+    border: 2px solid black;
+    width: 250px;
+    height: 185px;
+    margin: 10px 5px;
+    border-radius: 4px;
+    background-color: #161616;
+    box-shadow: 4px 4px red;
+}
+
+.last div svg {
+    margin-top: 14px;
+    color: white;
+}
+
+.last div h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: white;
+}
+.last div p{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: white;
+}
+
+.skillline {
+    width: 400px;
+    height: 58px;
+    text-align: left;
+}
+
+.skill nav {
+    margin: -2px auto;
+}
+
+.unlinehtml {
+    width: 303px;
+    height: 9px;
+    margin: auto;
+    margin-left: 10px;
+    margin-top: -9px;
+    background-color: #d10101;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 68px;
+    animation: html 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.shaline {
+    width: 381px;
+    height: 9px;
+    margin: auto;
+    margin-left: 10px;
+    margin-top: 4px;
+    background-color: #ffe7e7;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 68px;
+    animation: chintu 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+.line span {
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+}
+
+.line span::before {
+    position: relative;
+    content: "";
+    top: 21px;
+    width: 0px;
+    height: 0px;
+    right: -6px;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: html1 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+
+}
+
+.line span::after {
+    position: relative;
+    content: "80%";
+    color: rgb(228, 190, 119);
+    font-size: 15px;
+    top: -3px;
+    width: 0px;
+    height: 0px;
+    right: -6px;
+    margin-left: -79px;
+    border-top-color: #000;
+    background-color: black;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: html2 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes html {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes html1 {
+    100% {
+        transform: scaleX(1);
+        right: -304px;
+    }
+}
+
+@keyframes html2 {
+    100% {
+        transform: scaleX(1);
+        right: -304px;
+    }
+}
+
+@keyframes chintu {
+    100% {
+        transform: scaleX(1);
+
+    }
+}
+
+.unlinecss {
+    width: 255px;
+    height: 9px;
+    margin: auto;
+    margin-left: 10px;
+    margin-top: -9px;
+    background-color: #d10101;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 68px;
+    animation: css 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.css span::before {
+    position: relative;
+    content: "";
+    top: 24px;
+    width: 0px;
+    height: 0px;
+    right: -6px;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: css1 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+
+}
+
+.css span::after {
+    position: relative;
+    content: "70%";
+    color: rgb(228, 190, 119);
+    font-size: 15px;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    right: -6px;
+    margin-left: -59px;
+    background-color: black;
+    border-top-color: #000;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: css2 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes css {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes css1 {
+    100% {
+        transform: scaleX(1);
+        right: -256px;
+    }
+}
+
+@keyframes css2 {
+    100% {
+        transform: scaleX(1);
+        right: -256px;
+    }
+}
+
+.unlinejavascript {
+    width: 227px;
+    height: 9px;
+    margin: auto;
+    margin-left: 10px;
+    margin-top: -9px;
+    background-color: #d10101;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 68px;
+    animation: javascript 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.javascript span::before {
+    position: relative;
+    content: "";
+    top: 24px;
+    width: 0px;
+    height: 0px;
+    right: -6px;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: javascript1 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+
+}
+
+.javascript span::after {
+    position: relative;
+    content: "65%";
+    color: rgb(228, 190, 119);
+    font-size: 15px;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    right: -6px;
+    margin-left: -127px;
+    background-color: black;
+    border-top-color: #000;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: javascript2 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes javascript {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes javascript1 {
+    100% {
+        transform: scaleX(1);
+        right: -228px;
+    }
+}
+
+@keyframes javascript2 {
+    100% {
+        transform: scaleX(1);
+        right: -228px;
+    }
+}
+
+.unlinec {
+    width: 330px;
+    height: 9px;
+    margin: auto;
+    margin-left: 10px;
+    margin-top: -9px;
+    background-color: #d10101;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 68px;
+    animation: c 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.c span::before {
+    position: relative;
+    content: "";
+    top: 24px;
+    width: 0px;
+    height: 0px;
+    right: -6px;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: c1 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+
+}
+
+.c span::after {
+    position: relative;
+    content: "85%";
+    color: rgb(228, 190, 119);
+    font-size: 15px;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    right: -6px;
+    margin-left: -42px;
+    background-color: black;
+    border-top-color: #000;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: c2 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes c {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes c1 {
+    100% {
+        transform: scaleX(1);
+        right: -331px;
+    }
+}
+
+@keyframes c2 {
+    100% {
+        transform: scaleX(1);
+        right: -331px;
+    }
+}
+
+.unlinejava {
+    width: 330px;
+    height: 9px;
+    margin: auto;
+    margin-left: 10px;
+    margin-top: -9px;
+    background-color: #d10101;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 68px;
+    animation: java 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.java span::before {
+    position: relative;
+    content: "";
+    top: 24px;
+    width: 0px;
+    height: 0px;
+    right: -6px;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: java1 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+
+}
+.java span::after {
+    position: relative;
+    content: "85%";
+    color: rgb(228, 190, 119);
+    font-size: 15px;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    right: -6px;
+    margin-left: -69px;
+    background-color: black;
+    border-top-color: #000;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: java2 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes java {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes java1 {
+    100% {
+        transform: scaleX(1);
+        right: -331px;
+    }
+}
+
+@keyframes java2 {
+    100% {
+        transform: scaleX(1);
+        right: -331px;
+    }
+}
+.unlinepython {
+    width: 206px;
+    height: 9px;
+    margin: auto;
+    margin-left: 10px;
+    margin-top: -9px;
+    background-color: #d10101;
+    transform: scaleX(0);
+    transform-origin: left;
+    border-radius: 68px;
+    animation: python 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.python span::before {
+    position: relative;
+    content: "";
+    top: 24px;
+    width: 0px;
+    height: 0px;
+    right: -6px;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: python1 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+
+}
+
+.python span::after {
+    position: relative;
+    content: "60%";
+    color: rgb(228, 190, 119);
+    font-size: 15px;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    right: -6px;
+    margin-left: -98px;
+    background-color: black;
+    border-top-color: #000;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: python2 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes python {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes python1 {
+    100% {
+        transform: scaleX(1);
+        right: -210px;
+    }
+}
+
+@keyframes python2 {
+    100% {
+        transform: scaleX(1);
+        right: -210px;
+    }
+}
+.last {
+    width: 1160px;
+    height: 200px;
+    margin: 118px auto;
+    margin-top: 106px;
+}
+footer{
+    text-align: center;
+    background-color: #161616;
+}
+
+footer li {
+    list-style: none;
+    margin: 72px 20px;
+    float: left;
+    font-size: 26px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+.left-con {
+    width: 447px;
+    margin: 0px auto;
+    margin-left: 410px;
+}
+.left-con ul{
+    width: max-content;
+    height: 170px;
+}
+.right-con {
+    width: max-content;
+    margin: auto;
+}
+.right-con a {
+    font-size: 48px;
+    margin: 0px 37px;
+    text-decoration: none;
+}
+.right-con svg{
+    color: white;
+}
+.left-con li:hover {
+    color: black;
+    cursor: pointer;
+    width: 147px;
+    height: 33px;
+    background: red;
+    border-radius: 10px;
+}
+
+.name-con {
+    text-align: left;
+    font-size: 57px;
+    color: #645a5a;
+    margin-top: 73px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+.left-con li:hover {
+    color: black;
+    cursor: pointer;
+    width: 147px;
+    height: 33px;
+    background: red;
+    border-radius: 10px;
+}
+.left-con a{
+    text-decoration: none;
+    color: white;
+}
+/* Responsive web design */
+
+
+@media(max-width: 1174px){
+    .project-section {
+        background-color: rgb(231,231,231);
+        margin-top: -5px;
+        width: 1175px;
+        margin-left: -8px;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: #161616;
+        width: 1175px;
+        margin-left: -5px;
+    }
+    .left-con {
+        width: 447px;
+        margin: 0px auto;
+        margin-left: 336px;
+    }
+}
+
+@media(max-width: 900px){
+    .navbar {
+        width: 400px;
+        text-align: center;
+        background: rgb(236, 217, 182);
+        height: 1000px;
+        position: absolute;
+        left: -400px;
+        transition: 0.5s;
+        margin-top: -29px;
+    }
+    .menu {
+        margin-left: 411px;
+        margin-top: 0px;
+    }
+    
+    .closebtn {
+        margin-left: 316px;
+    }
+    
+    .active {
+        left: 0;
+    }
+    
+    .navbar ul {
+        margin-top: 49px;
+        width: 318px;
+    }
+    
+   .navbar ul a {
+    margin: 14px 56px;
+    text-decoration: none;
+    font-size: 52px;
+    color: black;
+    padding: 16px;
+    font-family: 'Rubik', sans-serif;
+}
+    
+    .navbar ul li {
+        list-style: none;
+        font-size: 51px;
+        margin: 20px auto;
+        border-radius: 8px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    
+    .size {
+        font-size: 42px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    
+    .fake {
+        margin-left: 59px;
+        border: 2px solid black;
+        width: 267px;
+    }
+    
+    .navbar ul li:hover {
+        background: #ffcc0d;
+        color: rgb(30, 204, 204);
+    }
+}
+
+
+
+
+
+
+
+@media(max-width: 700px) {
+    .main {
+        width: 849px;
+        text-align: center;
+        display: block;
+        height: 1672px;
+        margin: 0px px4;
+    }
+
+    .main nav {
+        border: 2px solid black;
+        z-index: -1;
+        padding: 5px;
+        width: 804px;
+        text-align: center;
+        margin-top: 77px;
+        margin-left: 12px;
+        height: 976px;
+    }
+
+    .photo img {
+        width: 804px;
+        height: 971px;
+    }
+
+    .intro {
+        width: 811px;
+        text-align: center;
+        height: 723px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .intro h2 {
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        color: white;
+        font-size: 43px;
+    }
+
+    .underintro {
+        width: 765px;
+        height: 73px;
+        margin: auto;
+        font-size: 57px;
+        background-color: #161616;
+        color: white;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        border-radius: 30px;
+    }
+
+    .intro p {
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        font-size: 26px;
+    }
+
+    .intro button {
+        font-size: 52px;
+        background: #161616;
+        border-radius: 10px;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        margin-top: 12px;
+        height: 89px;
+        border-radius: 23px;
+        color: white;
+    }
+
+    .biography {
+        width: 843px;
+        text-align: center;
+        height: 2175px;
+        margin-left: 0px;
+        margin-top: 153px;
+    }
+
+    .biography h1 {
+        font-size: 105px;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+    }
+
+    .fake1 {
+        border: 5px solid red;
+        width: 760px;
+        margin: -96px auto;
+    }
+    .biography nav ul li {
+        margin-top: -182px;
+    }
+    .biography p {
+        width: 685px;
+        margin: 221px auto;
+        font-size: 49px;
+        font-family: Rubik, sans-serif;
+    }
+    .biography ul li p {
+        font-size: 27px;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .box {
+        width: 818px;
+        height: 815px;
+        margin: 0px auto;
+        margin-top: -136px;
+    }
+
+    .box button {
+        padding: 21px;
+        margin: 11px 13px;
+        font-size: 35px;
+        height: 110px;
+        border-radius: 20px;
+        background-color: #161616;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        box-shadow: 6px 6px red;
+    }
+
+    #cv {
+        margin: 107px auto;
+        padding: 10px;
+        font-size: 64px;
+        height: 124px;
+        border-radius: 23px;
+        background-color: #161616;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        box-shadow: 6px 6px red;
+    }
+
+    .skill {
+        width: 850px;
+        height: 584px;
+        margin: 0px auto;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 36px;
+    }
+
+    .skill h1 {
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        font-size: 95px;
+    }
+
+    .fake2 {
+        border: 5px solid;
+        width: 472px;
+        margin: -56px auto;
+        margin-bottom: 68px;
+        color: red;
+    }
+
+    .skill nav {
+        margin: 3px auto;
+    }
+
+    .underskill {
+        border: 3px solid black;
+        height: 131px;
+        width: 816px;
+        margin: 19px auto;
+    }
+
+    .unskill1 {
+        border: 2px solid #ffcc0d;
+        width: 746px;
+        height: 110px;
+        margin-left: 7px;
+        margin-top: 7px;
+        background: #ffcc0d;
+    }
+
+    .leftskill1 {
+        margin-left: -280px;
+        margin-top: 20px;
+        width: 100%;
+        font-family: Rubik, sans-serif;
+        font-size: 56px;
+    }
+
+    .rightskill1 {
+        margin-left: 583px;
+        margin-top: -62px;
+        font-family: Rubik, sans-serif;
+        font-size: 58px;
+    }
+
+    .unskill2 {
+        border: 2px solid #ffcc0d;
+        width: 653px;
+        height: 112px;
+        margin-left: 7px;
+        margin-top: 5px;
+        background: #ffcc0d;
+    }
+
+    .leftskill2 {
+        margin-left: -245px;
+        margin-top: 11px;
+        width: 100%;
+        font-family: Rubik, sans-serif;
+        font-size: 62px;
+    }
+
+    .rightskill2 {
+        margin-top: -59px;
+        margin-left: 501px;
+        font-family: Rubik, sans-serif;
+        font-size: 61px;
+    }
+
+    .unskill3 {
+        border: 2px solid #ffcc0d;
+        width: 533px;
+        height: 115px;
+        margin-left: 7px;
+        margin-top: 4px;
+        background: #ffcc0d;
+    }
+
+    .leftskill3 {
+        margin-left: -109px;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        width: 100%;
+        font-size: 52px;
+    }
+
+    .rightskill3 {
+        margin-top: -59px;
+        margin-left: 426px;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        font-size: 54px;
+    }
+
+    .education {
+        width: 853px;
+        height: 2227px;
+        margin: 120px auto;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .education h1 {
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        font-size: 61px;
+    }
+
+    .fake3 {
+        border: 4px solid red;
+        width: 793px;
+        margin: -21px auto;
+    }
+
+    .had {
+        width: 825px;
+        height: 138px;
+        margin: 48px auto;
+        display: flex;
+    }
+
+    .had div h2 {
+        margin-top: 23px;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        font-size: 53px;
+        margin-left: 17px;
+        text-align: center;
+    }
+
+    .had div {
+        width: 383px;
+        margin: 0px auto;
+        background-color: #161616;
+        margin: 0px 5px;
+        height: 129px;
+        margin-left: 14px;
+        box-shadow: 5px 5px red;
+    }
+
+    .tab {
+        width: 824px;
+        height: 1047px;
+        margin: 44px auto;
+        margin-top: 122px;
+    }
+
+    .tab div {
+        width: 394px;
+        height: 865px;
+        margin: 31px 10px;
+        background-color: rgb(225 215 215);
+    border-radius: 14px;
+    box-shadow: 5px 5px 2px 0px #af9d9d;
+    }
+    .tab nav {
+        display: flex;
+        margin-top: -22px;
+    }
+
+    .tab nav div p {
+        font-size: 35px;
+    }
+
+    .tab nav div h3 {
+        font-size: 42px;
+    }
+
+    .service {
+        width: 843px;
+        text-align: center;
+        margin-left: 0px;
+        height: 1460px;
+        margin-top: 291px;
+    }
+
+    .service h1 {
+        font-size: 104px;
+    }
+
+    .fake4 {
+        border: 2px solid black;
+        width: 698px;
+        margin: -76px auto;
+    }
+
+    .unser {
+        border: 4px solid black;
+        width: 431px;
+        height: 482px;
+        margin: 88px 6px;
+    }
+
+    .underser {
+        border: 2px solid #ffcc0d;
+        width: 298px;
+        height: 55px;
+        margin: 0px auto;
+        font-size: 40px;
+        background-color: #ffcc0d;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .project-section {
+        background-color: rgb(231,231,231);
+        margin-top: -5px;
+        width: 860px;
+        margin-left: -8px;
+    }
+    .project-card {
+        width: 802px;
+        height: 450px;
+        position: relative;
+        box-shadow: 0px 0px 40px #1f1f1f;
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+    }
+    #pj-2 {
+        margin-left: 39px;
+        background-image: url('Img/foodproject.png');
+    }
+    #pj-4 {
+        margin-left: 39px;
+        background-image: url('Img/drumkit\ project.png');
+    }
+    .contact {
+        margin-top: 94px;
+        width: 838px;
+        height: 1100px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .contact nav {
+    width: 736px;
+    height: 378px;
+    margin: 200px auto;
+}
+
+    .contact h1 {
+        font-size: 91px;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+    }
+
+    .fake5 {
+        border: 3px solid red;
+        width: 690px;
+        margin: -64px auto;
+    }
+
+    .contact nav form div {
+        height: 97px;
+        width: 738px;
+    }
+
+    .contact nav form div input {
+        width: 335px;
+        padding: 8px;
+        font-size: 34px;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        margin: 0px 5px;
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 66px;
+        box-shadow: 3px 3px red;
+        border-radius: 19px;
+        color: white;
+    }
+
+    .num {
+        border: 2px solid black;
+        width: 714px;
+        height: 84px;
+        padding: 2px;
+        font-size: 34px;
+        border-radius: 12px;
+        margin-top: 24px;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        box-shadow: 4px 3px red;
+    }
+
+    .mess {
+        margin-left: 0px;
+        border: 2px solid black;
+        width: 708px;
+        height: 232px;
+        font-size: 34px;
+        border-radius: 14px;
+        margin-top: 44px;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        box-shadow: 3px 3px red;
+    }
+
+    .contact nav button {
+        height: 106px;
+        width: 459px;
+        font-size: 43px;
+        margin: 34px auto;
+        border-radius: 10px;
+        background-color: #161616;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        box-shadow: 6px 6px red;
+    }
+    .last {
+        width: 842px;
+        height: 1821px;
+        margin: 118px auto;
+        margin-left: 0px;
+    }
+
+    .last div {
+        border: 2px solid black;
+        width: 588px;
+        height: 482px;
+        margin: 119px 5px;
+        border-radius: 16px;
+        margin-left: -42px;
+        background-color: #161616;
+        box-shadow: 6px 6px red;
+    }
+
+    .last div svg {
+        margin-top: 61px;
+    }
+    .last div h3{
+        font-family: 'Roboto Mono';
+        font-weight: bold;
+    }
+
+    .last div p {
+        font-size: 39px;
+        font-family: 'Roboto Mono';
+        font-weight: bold;
+    }
+
+    .last nav {
+        display: block;
+        text-align: center;
+        margin: 0px 184px;
+    }
+
+    .menu {
+        margin-left: 509px;
+        margin-top: 0px;
+    }
+
+    .navbar ul {
+        margin-top: 55px;
+        width: 519px;
+        height: 1994px;
+    }
+
+    .navbar {
+        width: 519px;
+        text-align: center;
+        background: rgb(236, 217, 182);
+        height: 10000px;
+        position: absolute;
+        left: -519px;
+        transition: 0.5s;
+        margin-top: -78px;
+        z-index: 1;
+    }
+
+    .active {
+        left: 0px;
+    }
+
+    .size {
+        font-size: 77px;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .follow {
+        margin-left: 0px;
+        margin-top: -508px;
+    }
+
+    .fake {
+        margin-left: 0px;
+        border: 2px solid red;
+        width: 508px;
+    }
+
+    .closebtn {
+        margin-left: 440px;
+    }
+
+    .navbar ul a {
+        margin: 14px 56px;
+        text-decoration: none;
+        font-size: 49px;
+        color: white;
+        padding: 16px;
+        font-family: 'Roboto', monospace;
+        font-weight: bold;
+    }
+    .navbar {
+        width: 519px;
+        text-align: center;
+        background: #161616;
+        height: 10000px;
+        position: absolute;
+        left: -519px;
+        transition: 0.5s;
+        margin-top: -78px;
+        z-index: 1;
+    }
+    .active {
+        left: 0;
+    }
+    .navbar ul li {
+        list-style: none;
+        font-size: 51px;
+        margin: 50px auto;
+        border-radius: 8px;
+        font-family: 'Roboto', monospace;
+        font-weight: bold;
+        width: 468px;
+        height: 117px;
+    }
+    footer {
+        text-align: center;
+        background-color: #161616;
+        width: 857px;
+    }
+    .left-con {
+        width: 447px;
+        margin: 0px auto;
+        margin-left: 170px;
+    }
+    .left-con li:hover {
+        background-color: wheat;
+        color: black;
+        cursor: pointer;
+        width: 154px;
+        height: 33px;
+    }
+}
