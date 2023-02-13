@@ -819,7 +819,7 @@ color: #000;
     content: "80%";
     color: rgb(228, 190, 119);
     font-size: 15px;
-    top: -3px;
+    top: -6px;
     width: 0px;
     height: 0px;
     right: -6px;
@@ -847,7 +847,7 @@ color: #000;
 @keyframes html2 {
     100% {
         transform: scaleX(1);
-        right: -304px;
+        right: -318px;
     }
 }
 
@@ -893,7 +893,7 @@ color: #000;
     content: "70%";
     color: rgb(228, 190, 119);
     font-size: 15px;
-    top: 0px;
+    top: -3px;
     width: 0px;
     height: 0px;
     right: -6px;
@@ -921,7 +921,7 @@ color: #000;
 @keyframes css2 {
     100% {
         transform: scaleX(1);
-        right: -256px;
+        right: -259px;
     }
 }
 
@@ -960,7 +960,7 @@ color: #000;
     content: "65%";
     color: rgb(228, 190, 119);
     font-size: 15px;
-    top: 0px;
+    top: -3px;
     width: 0px;
     height: 0px;
     right: -6px;
@@ -988,7 +988,7 @@ color: #000;
 @keyframes javascript2 {
     100% {
         transform: scaleX(1);
-        right: -228px;
+        right: -232px;
     }
 }
 
@@ -1027,7 +1027,7 @@ color: #000;
     content: "85%";
     color: rgb(228, 190, 119);
     font-size: 15px;
-    top: 0px;
+    top: -3px;
     width: 0px;
     height: 0px;
     right: -6px;
@@ -1055,7 +1055,7 @@ color: #000;
 @keyframes c2 {
     100% {
         transform: scaleX(1);
-        right: -331px;
+        right: -336px;
     }
 }
 
@@ -1093,7 +1093,7 @@ color: #000;
     content: "85%";
     color: rgb(228, 190, 119);
     font-size: 15px;
-    top: 0px;
+    top: -3px;
     width: 0px;
     height: 0px;
     right: -6px;
@@ -1121,7 +1121,7 @@ color: #000;
 @keyframes java2 {
     100% {
         transform: scaleX(1);
-        right: -331px;
+        right: -335px;
     }
 }
 .unlinepython {
@@ -1159,7 +1159,7 @@ color: #000;
     content: "60%";
     color: rgb(228, 190, 119);
     font-size: 15px;
-    top: 0px;
+    top: -3px;
     width: 0px;
     height: 0px;
     right: -6px;
@@ -1187,7 +1187,7 @@ color: #000;
 @keyframes python2 {
     100% {
         transform: scaleX(1);
-        right: -210px;
+        right: -223px;
     }
 }
 .last {
@@ -1648,7 +1648,7 @@ footer li {
 
     .tab div {
         width: 394px;
-        height: 865px;
+        height: 920px;
         margin: 31px 10px;
         background-color: rgb(225 215 215);
     border-radius: 14px;
@@ -1940,5 +1940,310 @@ footer li {
         cursor: pointer;
         width: 154px;
         height: 33px;
+    }
+    .line span::after {
+        position: relative;
+        content: "80%";
+        color: rgb(228, 190, 119);
+        font-size: 15px;
+        top: -7px;
+        width: 0px;
+        height: 0px;
+        right: -6px;
+        margin-left: -65px;
+        border-top-color: #000;
+        background-color: black;
+        transform: scaleX(0);
+        transform-origin: left;
+        animation: html2 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    }
+    .shaline {
+        width: 469px;
+        height: 9px;
+        margin: auto;
+        margin-top: 4px;
+        background-color: #ffe7e7;
+        transform: scaleX(0);
+        transform-origin: left;
+        border-radius: 68px;
+        animation: chintu 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
+    }
+    .unlinehtml {
+        width: 376px;
+        height: 9px;
+        margin: auto;
+        margin-left: 0px;
+        margin-top: -9px;
+        background-color: #d10101;
+        transform: scaleX(0);
+        transform-origin: left;
+        border-radius: 68px;
+        animation: html 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    }
+    .unlinecss {
+        width: 316px;
+        height: 9px;
+        margin: auto;
+        margin-left: 0px;
+        margin-top: -9px;
+        background-color: #d10101;
+        transform: scaleX(0);
+        transform-origin: left;
+        border-radius: 68px;
+        animation: css 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    }
+    .unlinejavascript {
+        width: 278px;
+        height: 9px;
+        margin: auto;
+        margin-left: 0px;
+        margin-top: -9px;
+        background-color: #d10101;
+        transform: scaleX(0);
+        transform-origin: left;
+        border-radius: 68px;
+        animation: javascript 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    }
+    .unlinec {
+        width: 405px;
+        height: 9px;
+        margin: auto;
+        margin-left: 0px;
+        margin-top: -9px;
+        background-color: #d10101;
+        transform: scaleX(0);
+        transform-origin: left;
+        border-radius: 68px;
+        animation: c 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    }
+    .unlinejava {
+        width: 403px;
+        height: 9px;
+        margin: auto;
+        margin-left: 0px;
+        margin-top: -9px;
+        background-color: #d10101;
+        transform: scaleX(0);
+        transform-origin: left;
+        border-radius: 68px;
+        animation: java 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    }
+    .unlinepython {
+        width: 253px;
+        height: 9px;
+        margin: auto;
+        margin-left: 0px;
+        margin-top: -9px;
+        background-color: #d10101;
+        transform: scaleX(0);
+        transform-origin: left;
+        border-radius: 68px;
+        animation: python 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    }
+    .css span::after {
+        position: relative;
+        content: "70%";
+        color: rgb(228, 190, 119);
+        font-size: 15px;
+        top: 0px;
+        width: 0px;
+        height: 0px;
+        right: -6px;
+        margin-left: -59px;
+        background-color: black;
+        border-top-color: #000;
+        transform: scaleX(0);
+        transform-origin: left;
+        animation: css2 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    }
+    
+    @keyframes html {
+        100% {
+            transform: scaleX(1);
+        }
+    }
+    
+    @keyframes html1 {
+        100% {
+            transform: scaleX(1);
+            right: -365px;
+        }
+    }
+    
+    @keyframes html2 {
+        100% {
+            transform: scaleX(1);
+            right: -365px;
+        }
+    }
+    
+    @keyframes chintu {
+        100% {
+            transform: scaleX(1);
+    
+        }
+    }
+    @keyframes css {
+        100% {
+            transform: scaleX(1);
+        }
+    }
+    
+    @keyframes css1 {
+        100% {
+            transform: scaleX(1);
+            right: -307px;
+        }
+    }
+    
+    @keyframes css2 {
+        100% {
+            transform: scaleX(1);
+            right: -309px;
+        }
+    }
+    .javascript span::after {
+        position: relative;
+        content: "65%";
+        color: rgb(228, 190, 119);
+        font-size: 15px;
+        top: -3px;
+        width: 0px;
+        height: 0px;
+        right: -6px;
+        margin-left: -127px;
+        background-color: black;
+        border-top-color: #000;
+        transform: scaleX(0);
+        transform-origin: left;
+        animation: javascript2 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    }
+    
+    @keyframes javascript {
+        100% {
+            transform: scaleX(1);
+        }
+    }
+    
+    @keyframes javascript1 {
+        100% {
+            transform: scaleX(1);
+            right: -268px;
+        }
+    }
+    
+    @keyframes javascript2 {
+        100% {
+            transform: scaleX(1);
+            right: -272px;
+        }
+    }
+    .c span::after {
+        position: relative;
+        content: "85%";
+        color: rgb(228, 190, 119);
+        font-size: 15px;
+        top: -3px;
+        width: 0px;
+        height: 0px;
+        right: -6px;
+        margin-left: -42px;
+        background-color: black;
+        border-top-color: #000;
+        transform: scaleX(0);
+        transform-origin: left;
+        animation: c2 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    }
+    
+    @keyframes c {
+        100% {
+            transform: scaleX(1);
+        }
+    }
+    
+    @keyframes c1 {
+        100% {
+            transform: scaleX(1);
+            right: -395px;
+        }
+    }
+    
+    @keyframes c2 {
+        100% {
+            transform: scaleX(1);
+            right: -400px;
+        }
+    }
+    .java span::after {
+        position: relative;
+        content: "85%";
+        color: rgb(228, 190, 119);
+        font-size: 15px;
+        top: -3px;
+        width: 0px;
+        height: 0px;
+        right: -6px;
+        margin-left: -69px;
+        background-color: black;
+        border-top-color: #000;
+        transform: scaleX(0);
+        transform-origin: left;
+        animation: java2 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    }
+    
+    @keyframes java {
+        100% {
+            transform: scaleX(1);
+        }
+    }
+    
+    @keyframes java1 {
+        100% {
+            transform: scaleX(1);
+            right: -395px;
+        }
+    }
+    
+    @keyframes java2 {
+        100% {
+            transform: scaleX(1);
+            right: -399px;
+        }
+    }
+    .python span::after {
+        position: relative;
+        content: "60%";
+        color: rgb(228, 190, 119);
+        font-size: 15px;
+        top: -3px;
+        width: 0px;
+        height: 0px;
+        right: -6px;
+        margin-left: -98px;
+        background-color: black;
+        border-top-color: #000;
+        transform: scaleX(0);
+        transform-origin: left;
+        animation: python2 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+    }
+    
+    @keyframes python {
+        100% {
+            transform: scaleX(1);
+        }
+    }
+    
+    @keyframes python1 {
+        100% {
+            transform: scaleX(1);
+            right: -243px;
+        }
+    }
+    
+    @keyframes python2 {
+        100% {
+            transform: scaleX(1);
+            right: -256px;
+        }
     }
 }
