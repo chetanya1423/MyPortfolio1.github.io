@@ -1366,16 +1366,16 @@ footer li {
         border: 2px solid black;
         z-index: -1;
         padding: 5px;
-        width: 900px;
+        width: 804px;
         text-align: center;
         margin-top: 77px;
         margin-left: 12px;
-        height: 1400px;
+        height: 951px;
     }
 
     .photo img {
-        width: 900px;
-        height: 1400px;
+        width: 804px;
+        height: 951px;
     }
 
     .intro {
